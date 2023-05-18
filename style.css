@@ -65,8 +65,11 @@ svg{
 .pebble{
   margin: 40px;
   padding: 0;
-  position: absolute;
-  top: 161%;
+  position: relative;
+  top: 72%;
+  
+ 
+  right: 11%;
 }
 .divimage{
  
@@ -106,7 +109,8 @@ svg{
   color: black;
   text-decoration: none;
 }
-@media  (max-width:980px) and (min-width:0px) {
+
+@media only screen and (max-width:1377px) and (min-width:50px)   {
   .gradient-background {
      background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
      background-size: 180% 180%;
@@ -122,7 +126,7 @@ svg{
     justify-content: flex-end;
     align-items: center;
     position: absolute;
-    left: 29%;
+    left: 13%;
       height: 62vh;
       bottom: 29%;
   }
@@ -155,10 +159,11 @@ svg{
     margin: 40px;
     padding: 0;
     position: absolute;
-    top: 73%;
+    top: 88%;
+    right: auto;
   }
   .text-center{
-    position: absolute;
+    position: relative;
     
   }
   .dogcenter{
@@ -166,10 +171,39 @@ svg{
     top: 92px;
   }
   #footer{
-    position:absolute;
-    top: 390%;
+    position:relative;
+    top: 549%;
     background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
     background-size: 180% 180%;
-    height: 106vh;
+    height: 100vh;
+    width: 100vw;
+  }
+  #testimonial{
+    background-color:#f8f9fa;
+    width: 100vw;
+    height: 145vh;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  #pricing{
+    position: relative;
+    width: 100vw;
+    height: 160vh;
   }
 }
+/* @media (max-width:320px)  {
+  .gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    position: relative;
+ }
+ #features{
+  display: flex;
+ }
+} */
